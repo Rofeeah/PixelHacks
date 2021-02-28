@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personality Quiz</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+  
+    <!-- import the webpage's javascript file -->
+    <script src="form.js" defer></script>
+  </head>  
+  <body>
+  
+ <center> <h1>Find My Mask</h1></center>
+  
+    <h2>Allergy</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://laundress.ips.photos/images/content/7355_ONE_SIZE_IMAGE_01_11985_-2074570662.jpg">
+        <br></br>
+        <button id="q1a1"> Scented Detergent</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://media.mpbio.com/catalog/product/cache/7e778c92c351ff55ca58ff0e77ca3920/8/d/8db2483bd45ce6f054fd179c12c3b7d7ab8f9bc1f7287a0611bb078be0186690.jpeg">
+        <br></br>
+        <button id="q1a2"> Formaldehyde</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://www.fashionpress24.com/wp-content/uploads/2019/10/reactive-me-dyes-500x500.jpg">
+        <br></br>
+        <button id="q1a3"> Textile Dyes</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images.squarespace-cdn.com/content/v1/54b72a35e4b05e2e7fbc4c3a/1584565655607-NNEHFZ1SB40SMGSQX143/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/IMG_7248.jpg">
+        <br> </br>
+        <button id="q1a4" style="font-size:14px;">Elastic</button>
+      </div>
+    </div> 
+    
+    <h2>Disposable</h2>
+    <div class="question">
+      <div class="answer-choice" style="padding-left: 13em">
+        <img src="https://www.adesso.com/wp-content/uploads/2020/06/PPE-100_1.jpg">
+        <br></br>
+        <button id="q2a1">Disposable</button>
+      </div>
+      <div class="answer-choice"style="padding-left: 11em">
+        <img src="https://m.media-amazon.com/images/I/61s0KgvcC-L._AC_UL1200_.jpg">
+        <br></br>
+        <button id="q2a2"> Non-Disposable</button>
+      </div>
+      <!-- <div class="answer-choice">
+        <img src="https://www.cookforyourlife.org/wp-content/uploads/2018/08/Fresh-Grape-Juice-696x462.jpg">
+        <br></br>
+        <button id="q2a3">Grape Juice</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.mos.cms.futurecdn.net/mFVAjG4U9LELrtjGfEgcQE-1200-80.jpg">
+        <br></br>
+        <button id="q2a4">Water</button>
+      </div> -->
+    </div> 
+    
+    <h2>Skin Type</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://propelltherapy.com/wp-content/uploads/2019/08/1.-Dry-skin-and-hormones-scaled.jpg">
+        <br></br>
+        <button id="q3a1">Dry Skin</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.shopify.com/s/files/1/1186/4848/articles/Untitled_design_22_-min_2048x.png?v=1531501881">
+        <br></br>
+        <button id="q3a2">Oily Skin</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.shopify.com/s/files/1/0032/1224/7149/files/Best_Anti_Aging_Eye_Cream_Brands_large.jpg?v=1581403360">
+        <br></br>
+        <button id="q3a3">Combination Skin</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://static.eau-thermale-avene.com/sites/files-uk/styles/crop-left-care/public/images/care_program/cover/cover_970x368_sensitive_skin_0.jpg?itok=0XIbqegn">
+        <br></br>
+        <button id="q3a4">Normal Skin</button>
+      </div>
+    </div> 
+    
+
+  <!-- <h2>4) What is your favortie pet?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/surprises_about_dogs_and_cats_slideshow/1800x1200_surprises_about_dogs_and_cats_slideshow.jpg">
+        <br></br>
+        <button id="q4a1">Dogs</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://cdn.cnn.com/cnn/interactive/2019/09/style/cat-photographer-cnnphotos/media/02.jpg">
+        <br></br>
+        <button id="q4a2">Cats</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b9/%E3%83%AF%E3%82%AD%E3%83%B320120701.JPG">
+        <br></br>
+        <button id="q4a3">Fish</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://static.boredpanda.com/blog/wp-content/uploads/2019/12/perfect-17-cats-dogs-photo-kathy-smith-1-5de7818d926f5__700.jpg">
+        <br></br>
+        <button id="q4a4" style="font-size:14px;">I love all of them</button>
+      </div>
+    </div> 
+
+
+  <h2>5) What is your favorite spice?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://target.scene7.com/is/image/Target/GUEST_83ad67cd-074a-47c9-aaa7-38d284216314?wid=488&hei=488&fmt=pjpeg">
+        <br></br>
+        <button id="q5a1">Pepper</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://miro.medium.com/max/1200/0*hdhMI49OG82DD09T">
+        <br></br>
+        <button id="q5a2">Salt</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/919fzaqYK2L._SL1500_.jpg">
+        <br></br>
+        <button id="q5a3"style="font-size:14px;">Garlic powder</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://target.scene7.com/is/image/Target/GUEST_4e91d636-7369-447c-9e93-9c162893bfd3?wid=488&hei=488&fmt=pjpeg">
+        <br></br>
+        <button id="q5a4">Oregano</button>
+      </div>
+    </div> 
+
+
+
+
+    <h2>6) What is your favorite Ice-cream flavor?</h2>
+    <div class="question">
+      <div class="answer-choice">
+        <img src="https://thebusybaker.ca/wp-content/uploads/2019/05/best-ever-no-churn-vanilla-ice-cream-fb-ig-2.jpg">
+        <br></br>
+        <button id="q6a1">Vanilla</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://bakingamoment.com/wp-content/uploads/2019/08/IMG_5627-chocolate-ice-cream-500x375.jpg">
+        <br></br>
+        <button id="q6a2">Chocolate</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://www.browneyedbaker.com/wp-content/uploads/2020/06/Mint-chocolate-chip-ice-cream-14-square.jpg">
+        <br></br>
+        <button id="q6a3" style="font-size:12px;">Mint chocolate chip</button>
+      </div>
+      <div class="answer-choice">
+        <img src="https://joyfoodsunshine.com/wp-content/uploads/2016/08/Vegan-Paleo-Cookie-Dough-Ice-Cream-gluten-free-6.jpg">
+        <br></br>
+        <button id="q6a4" style="font-size:14px;">Cookie dough</button>
+      </div>
+    </div>  -->
+    <!-- <br></br> -->
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-sm-6" "imageOutput">   -->
+          <div class="result">
+            <p id="result">Your result is... </p>
+            <!-- <br></br> -->
+           </div>
+        <!-- </div> -->
+
+        <!-- <div class="col-sm-6">
+          <center><div class="resultImage">
+            <h2 id="resultImage">
+              <!-- <br></br>
+              <br></br>
+              <br></br> -->
+              <!-- Image here </h2>
+          </div></center>
+        </div>
+      </div> -->
+    <!-- </div> -->
+
+  </body>
+</html>
